@@ -12,8 +12,8 @@ This repository provides a complete pipeline for:
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/detseg-project.git
-   cd detseg-project
+   git clone git@github.com:atreyabhat/Warehouse_detect_segment.git
+   cd Warehouse_detect_segment
    ```
 
 2. **Install Python dependencies**  
@@ -33,8 +33,7 @@ This repository provides a complete pipeline for:
 ## How To Run
 
 ```bash
-ros2 run det_seg_pkg det_seg_node \
-  -- --image_topic "<your_image_topic_here>"
+ros2 run det_seg_pkg det_seg_node --image_topic "<your_image_topic_here>"
 ```
 
 - **Default image topic:**  
