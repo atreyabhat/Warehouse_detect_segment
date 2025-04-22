@@ -8,6 +8,26 @@ This repository provides a complete pipeline for:
 
 ---
 
+## YOLO Detection Model Results
+
+- **Model:** `yolo11m-seg` (medium) → TensorRT engine
+- **Training:** Trained on ~15000 images with augmentation on A100 GPU
+- **mAP@0.5:** __%  
+- **mAP@[0.5:0.95]:** __%  
+- **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~3.0ms
+
+
+## YOLO Segmentation Model Results
+
+- **Model:** `yolo11s-seg` (small) → TensorRT engine 
+- **Training:** Trained on ~1100 images with augmentation on A100 GPU
+- **Mean IoU:** __%  
+- **Pixel Accuracy:** __%  
+- **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~2.0ms
+
+
+---
+
 ## Installation
 
 1. **Clone the repo**  
@@ -46,22 +66,6 @@ ros2 run det_seg_pkg det_seg_node --image_topic "<your_image_topic_here>"
 
 ---
 
-## YOLO Detection Model Results
-
-- **Model:** `yolo11m-seg` (medium) → TensorRT engine trained on ~15000 images with augmentation
-- **mAP@0.5:** __%  
-- **mAP@[0.5:0.95]:** __%  
-- **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~3.0ms
-
-
----
-
-## YOLO Segmentation Model Results
-
-- **Model:** `yolo11s-seg` (small) → TensorRT engine trained on ~1100 images with augmentation
-- **Mean IoU:** __%  
-- **Pixel Accuracy:** __%  
-- **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~2.0ms   
 
 
 
