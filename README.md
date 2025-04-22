@@ -10,19 +10,19 @@ This repository provides a complete pipeline for:
 
 ## YOLO Detection Model Results
 
-- **Model:** `yolo11m-seg` (medium) → TensorRT engine
-- **Training:** Trained on ~15000 images with augmentation on A100 GPU
-- **mAP@0.5:** __%  
-- **mAP@[0.5:0.95]:** __%  
+- **Base Model:** `yolo11m-seg` (medium) → TensorRT engine
+- **Training:** Trained on ~15000 images with augmentation on A100 GPU for 50 epochs
+- **mAP@0.5 (bbox):** 75.4%  
+- **mAP@[0.5:0.95] (bbox):** 35.1%  
 - **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~3.0ms
 
 
 ## YOLO Segmentation Model Results
 
-- **Model:** `yolo11s-seg` (small) → TensorRT engine 
-- **Training:** Trained on ~1100 images with augmentation on A100 GPU
-- **Mean IoU:** __%  
-- **Pixel Accuracy:** __%  
+- **Base Model:** `yolo11s-seg` (small) → TensorRT engine 
+- **Training:** Trained on ~1100 images with augmentation on A100 GPU for 100epochs
+- **mAP@0.5 (mask):** 69.1%  
+- **mAP@[0.5:0.95] (mask):** 59.3%   
 - **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~2.0ms
 
 
