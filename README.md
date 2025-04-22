@@ -23,7 +23,7 @@ This repository provides a complete pipeline for:
 
 3. **Build the ROS 2 workspace**  
    ```bash
-   cd ros2_ws
+   cd detseg_ws
    colcon build --symlink-install
    source install/setup.bash
    ```
