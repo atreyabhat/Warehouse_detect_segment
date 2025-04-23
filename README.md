@@ -10,7 +10,7 @@ This repository provides a complete pipeline for:
 
 ## YOLO Detection Model Results
 
-- **Base Model:** `yolo11m-seg` (medium) → TensorRT engine
+- **Base Model:** `yolo11m-seg` (medium)
 - **Training:** Trained on ~15000 images with augmentation on A100 GPU for 100 epochs
 - **mAP@0.5 (bbox):** 76.4%  
 - **mAP@[0.5:0.95] (bbox):** 35.5%  
@@ -19,7 +19,7 @@ This repository provides a complete pipeline for:
 
 ## YOLO Segmentation Model Results
 
-- **Base Model:** `yolo11s-seg` (small) → TensorRT engine 
+- **Base Model:** `yolo11s-seg` (small) 
 - **Training:** Trained on ~1100 images with augmentation on A100 GPU for 100epochs
 - **mAP@0.5 (mask):** 69.1%  
 - **mAP@[0.5:0.95] (mask):** 59.3%   
