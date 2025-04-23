@@ -74,7 +74,7 @@ ros2 run det_seg_pkg det_seg_node --image_topic "<your_image_topic_here>"
 <img src="https://github.com/user-attachments/assets/c773f7ed-2e1b-4f4c-8921-0a99661d58f9" width="410"/>
 
 
-![image](https://github.com/user-attachments/assets/872749e9-3465-4838-b3fa-bd5232303017)
+![image](https://github.com/user-attachments/assets/247fad8e-51c8-410a-89e2-6cba8aab6825)
 
 
 
