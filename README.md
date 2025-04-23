@@ -25,6 +25,8 @@ This repository provides a complete pipeline for:
 - **mAP@[0.5:0.95] (mask):** 59.3%   
 - **Inference speed (Nvidia RTX 4070 Mobile (8GB), TensorRT FP16):** ~2.0ms
 
+Download the models from : https://drive.google.com/drive/folders/14uhlcHqhTAzMIwNPTl7g8yIwqOuzZ2Sp?usp=drive_link and place them in src/det_seg_pkg/models
+
 
 ---
 
