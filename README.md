@@ -1,5 +1,5 @@
 # Pallet Detection and Ground Segmentation
-Pallet detection and Warehouse floor segmentation pipeline based on ROS2
+Pallet detection and Warehouse floor segmentation pipeline optimized for Jetson devices and based on ROS2
 
 This repository provides a complete pipeline for:
 1. **Real‑time pallet detection** (bounding‑box)  
